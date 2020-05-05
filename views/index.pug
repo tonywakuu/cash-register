@@ -1,0 +1,29 @@
+doctype html
+html
+  head
+    title Cash Register
+
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/autonumeric/1.9.46/autoNumeric.min.js')
+    script(src='/cashier.js')
+
+    link(rel='stylesheet', href='/stylesheet.css')
+
+  body
+    div#main
+      h1 Cash Register
+      p 
+      div#form
+        h3 Perform a Transaction:
+        div.form-group
+          label Payment:
+          input#payment.currency(type='text',name='payment')
+        div.form-group
+          label Price:
+          input#price.currency(type='text',name='price')
+        div.form-group
+          button#submit(type='submit')
+           span submit
+      div#change
+      div#drawer
