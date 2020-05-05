@@ -13,3 +13,14 @@ Cash Register
  * [Node.js](https://nodejs.org/en/) is our server-side framework
  * [Express.js](http://expressjs.com/) is our Node web-server
  * [Chai](http://chaijs.com/) and [Mocha](https://mochajs.org/) handle unit-tests
+
+ ## Assumptions
+
+ * We're using a modern browser. No polyfills or legacy support.
+ * We're using a desktop browser. No responsive design or other mobile support.
+ * No malicious or mischievous actors. Input validation and sanitization is minimal.
+ * We're connected to the web. Client-side libraries are loaded from a CDN.
+ * No DB connectivity. All data managed by Node.js state.
+ * Smaller transactions. Up to $1000, no $50 or $100 bills.
+ * Serves as the boilerpater for scaled representation.
+
