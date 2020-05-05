@@ -3,7 +3,7 @@ Cash Register
 
 ## Start
 
- * For a quick look, check out the app on [Netlify](https://liberabank.netlify.app/)
+ * App deployed on [Netlify](https://liberabank.netlify.app/)
  * To install the app locally , clone this repository and run `npm install` from its directory
  * To run the server locally, run `npm start` and point your browser at `http://localhost:3000/`
  * To run the tests, install the app and run `npm test`
