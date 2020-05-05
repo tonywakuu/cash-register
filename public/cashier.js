@@ -53,7 +53,7 @@ $( document ).ready(function() {
      .done(function(changeData){
       if (changeData){
         // the transaction succeeded
-        var changeHTML = app.formatCashBundle(changeData, "Success: Your change is")
+        var changeHTML = app.formatTransaction(changeData, "Success: Your change is")
         $("#change").html(changeHTML)
       } else {
         // the transaction failed
