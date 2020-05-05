@@ -12,6 +12,7 @@ Cash Register
 
  * [Node.js](https://nodejs.org/en/) is our server-side framework
  * [Express.js](http://expressjs.com/) is our Node web-server
+ * [Pug](https://pugjs.org/api/express.html) is our SSR engine
  * [Chai](http://chaijs.com/) and [Mocha](https://mochajs.org/) handle unit-tests
 
  ## Assumptions
