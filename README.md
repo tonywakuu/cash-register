@@ -22,6 +22,5 @@ Cash Register
  * No malicious or mischievous actors. Input validation and sanitization is minimal.
  * We're connected to the web. Client-side libraries are loaded from a CDN.
  * No DB connectivity. All data managed by Node.js state.
- * Smaller transactions. Up to $1000, no $50 or $100 bills.
- * Serves as the boilerpater for scaled representation.
-
+ * Only small transactions. Up to $1000; no $50 or $100 bills.
+ * Serves as boilerplate for scaled representation.

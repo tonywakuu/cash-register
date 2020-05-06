@@ -2,7 +2,7 @@ var express = require('express')
 const pug = require('pug')
 var router = express.Router()
 
-CashRegister = require('./models/cashregister.js')
+CashRegister = require('./controllers/cashregister.js')
 var register = new CashRegister(10)
 
 // our HTML front-page

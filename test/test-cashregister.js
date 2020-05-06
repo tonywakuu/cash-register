@@ -2,7 +2,7 @@ var _ = require('lodash')
 var chai = require('chai')
 var assert = chai.assert;
 const config = require('../config.js')
-const CashRegister = require('../models/cashregister.js')
+const CashRegister = require('../controllers/cashregister.js')
 
 describe('CashRegister:', function() {
   it('initializes with the appropriate amount in the drawer', function(){
